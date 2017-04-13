@@ -49,3 +49,5 @@ jspm_packages
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+.idea/deployment.xml
+messages.db

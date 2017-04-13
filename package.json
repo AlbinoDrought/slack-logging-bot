@@ -1,0 +1,31 @@
+{
+  "name": "slack-logging-bot",
+  "version": "0.0.1",
+  "description": "Logs Slack messages",
+  "main": "src/bot.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbinoDrought/slack-logging-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "logging",
+    "bot"
+  ],
+  "author": "AlbinoDrought",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AlbinoDrought/slack-logging-bot/issues"
+  },
+  "homepage": "https://github.com/AlbinoDrought/slack-logging-bot#readme",
+  "dependencies": {
+    "@slack/client": "^3.9.0",
+    "bulk-require": "^1.0.0",
+    "nedb": "^1.8.0"
+  }
+}
